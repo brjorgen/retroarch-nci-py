@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
 
+"""
+This script connects to a running RetroArch instance.
+NCI (also known as "network commands") must be enabled.
+"""
+
 import argparse
 from retroarch_nci import RetroArchNCI, NCICommand
 
